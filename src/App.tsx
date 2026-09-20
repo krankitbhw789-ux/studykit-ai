@@ -187,8 +187,8 @@ export default function App() {
         reader.readAsDataURL(file);
       });
 
-      // Call Gemini API backend endpoint
-      const response = await fetch('/api/studykit/generate', {
+      // Call Gemini API Netlify function endpoint
+      const response = await fetch('/.netlify/functions/generate', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
