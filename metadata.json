@@ -1,0 +1,6 @@
+{
+  "name": "StudyKit AI",
+  "description": "Turn any PDF into exam-ready study material: Notes, Summary, Important Topics, Mind Map, and Test Series.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
